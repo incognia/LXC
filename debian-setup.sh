@@ -21,4 +21,3 @@ echo "El script se está ejecutando con privilegios de root o sudo. ¡Continuemo
 
 # Instalar paquetes adicionales de forma silenciosa
 apt-get install -y bash-completion btop curl mc neofetch wget
-timedatectl set-timezone America/Mexico_City
