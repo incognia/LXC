@@ -29,7 +29,7 @@
     ```bash
     cat /etc/default/locale
     ```
-- Establecer la sona horaria:
+- Establecer la zona horaria:
   ```bash
   timedatectl set-timezone America/Mexico_City
   ```
