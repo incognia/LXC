@@ -55,3 +55,24 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
     passwd [user_name]
     ```
 4. Cerrar sesión e iniciar con el usuario nuevo para validar.
+
+### Instalar `git` y descargar este repositorio
+
+1. Acceder con el nuevo usuario e instalar `git` usando `sudo`:
+    ```bash
+    sudo apt install -y git
+    ```
+2. Clonar este reposidorio:
+    ```bash
+    git clone https://github.com/incognia/LXC
+    ```
+### Instalar paquetes adicionales
+
+1. Acceder al directorio clonado:
+    ```bash
+    cd LXC
+    ```
+2. Ejecutar el script incluido:
+    ```bash
+    sudo ./debian-setup
+    ```
