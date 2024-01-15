@@ -16,7 +16,7 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
 
 ### Actualización del sistema
 
-1. Acceder como `root` desde la consola nativa de Proxmox para preparar el sistema para ejecutar el script.
+1. Acceder como `root` al contenedor para preparar el sistema para ejecutar el script. Puede ser desde la consola web nativa de Proxmox o usando `lxc-attach -n [id]` dentro de la shell del sistema anfitrión.
 2. Actualizar lista de repositorios es instalar `aptitude`:
     ```bash
     apt update && apt install -y aptitude
