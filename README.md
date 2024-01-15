@@ -58,7 +58,7 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
 
 2. Instalar sudo
     ```bash
-    apt install sudo
+    apt install -y sudo
     ```
 
 3. Crear usuario con permisos de sudo:
@@ -91,7 +91,7 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
     ```
 2. Ejecutar el script incluido:
     ```bash
-    sudo ./debian-setup
+    sudo ./debian-setup.sh
     ```
 
 ## Opcional
