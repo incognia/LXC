@@ -10,7 +10,7 @@
 
 ## Acerca de
 
-Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/introduction/) basados en Debian 12 ([bookworm](https://www.debian.org/releases/bookworm/)) sobre [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-virtual-environment/overview).
+Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/introduction/) basados en Debian GNU/Linux 12 ([bookworm](https://www.debian.org/releases/bookworm/)) sobre [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-virtual-environment/overview).
 
 ## Instalación
 
