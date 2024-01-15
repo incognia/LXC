@@ -23,7 +23,7 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
     ```
 3. Actualizar el sistema con `aptitude`:
     ```bash
-    aptitude safe-upgrade-y
+    aptitude safe-upgrade -y
     ```
 4. Reiniciar el contenedor:
     ```bash
@@ -43,28 +43,35 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
       ```bash
       cat /etc/default/locale
       ```
+
 3. Establecer la zona horaria:
     ```bash
     timedatectl set-timezone America/Mexico_City
     ```
    - Ejecutar `date` para validar el cambio.
 
+4. Cerrar sesión.
+
 ### Creación de usuario adminsitrador
 
-1. Instalar sudo
+1. Acceder nuevamente como `root`.
+
+2. Instalar sudo
     ```bash
     apt install sudo
     ```
 
-2. Crear usuario con permisos de sudo:
+3. Crear usuario con permisos de sudo:
     ```bash
     useradd -m -s /bin/bash [user_name] && usermod -aG sudo [user_name]
     ```
-3. Definir contraseña para el nuevo usuario:
+
+4. Definir contraseña para el nuevo usuario:
     ```bash
     passwd [user_name]
     ```
-4. Cerrar sesión e iniciar con el usuario nuevo para validar.
+
+5. Cerrar sesión e iniciar con el usuario nuevo para validar.
 
 ### Instalar `git` y descargar este repositorio
 
