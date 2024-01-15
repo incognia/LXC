@@ -1,8 +1,18 @@
 # LXC
+[![Content license: CC-BY-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-05b5da.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code license: GNU GPL v3](https://img.shields.io/badge/Code-GNU_GPL_v3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) | ![Proxmox](https://img.shields.io/badge/Proxmox-v8.0.3-e57000.svg) ![Debian](https://img.shields.io/badge/Debian-v12.4-d80150.svg)
+
+## Tabla de contenidos
+
+- [Acerca de](#acerca-de)
+- [Instalación](#instalación)
+- [Opcional](#opcional)
+- [Licencias](#licencias)
+
+## Acerca de
 
 Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/introduction/) basados en Debian 12 ([bookworm](https://www.debian.org/releases/bookworm/)) sobre [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-virtual-environment/overview).
 
-## Preparación
+## Instalación
 
 ### Actualización del sistema
 
@@ -77,9 +87,14 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
     sudo ./debian-setup
     ```
 
-### Opcional
+## Opcional
 
-1. Habilitar los números de línea en `nano`:
-    ```bash
-    echo "set linenumbers" > ~/.nanorc
-    ```
+Habilitar los números de línea en `nano`:
+```bash
+echo "set linenumbers" > ~/.nanorc
+```
+
+## Licencias
+
+- Content: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- Code: [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
