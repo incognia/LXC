@@ -96,5 +96,5 @@ echo "set linenumbers" > ~/.nanorc
 
 ## Licencias
 
-- Content: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-- Code: [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+- Contenido: [Creative Commons BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- Código: [GNU GPL v3](https://www.gnu.org/licenses/gpl-3.0.en.html)
