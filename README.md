@@ -1,5 +1,5 @@
 # LXC
-[![Content license: CC-BY-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-05b5da.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code license: GNU GPL v3](https://img.shields.io/badge/Code-GNU_GPL_v3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) | ![Proxmox](https://img.shields.io/badge/Proxmox-v8.0.3-e57000.svg) ![Debian](https://img.shields.io/badge/Debian-v12.4-d80150.svg)
+[![Content license: CC-BY-SA 4.0](https://img.shields.io/badge/Content-CC_BY--NC--SA_4.0-05b5da.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/) [![Code license: GNU GPL v3](https://img.shields.io/badge/Code-GNU_GPL_v3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html) ![Proxmox](https://img.shields.io/badge/Proxmox-v8.0.3-e57000.svg) ![Debian](https://img.shields.io/badge/Debian-v12.4-d80150.svg)
 
 ## Tabla de contenidos
 
