@@ -76,3 +76,10 @@ Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/i
     ```bash
     sudo ./debian-setup
     ```
+
+### Opcional
+
+1. Habilitar los números de línea en `nano`:
+    ```bash
+    echo "set linenumbers" > ~/.nanorc
+    ```
