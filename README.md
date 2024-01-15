@@ -1,5 +1,7 @@
 # LXC
 
+Configuración básica para contenedores [LXC](https://linuxcontainers.org/lxc/introduction/) basados en Debian 12 ([bookworm](https://www.debian.org/releases/bookworm/)) sobre [Proxmox Virtual Environment](https://www.proxmox.com/en/proxmox-virtual-environment/overview).
+
 ## Preparación
 
 - Acceder como `root` desde la consola nativa de Proxmox para preparar el sistema para ejecutar el script.
